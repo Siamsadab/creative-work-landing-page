@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 60px;
+  
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo h1{
+    font-family: 'Poppins', sans-serif;
+    color: #385F96;
+}
+.menu ul li{
+    list-style-type: none;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+.button button{
+    background-color:#385F96 ;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button{
+    background-color:#385F96 ;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* <<<<<<<<<<<<<<< 2nd section>>>>>>>>>>>>> */
+.secondnd{
+    width: 100%;
+    padding: 150px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-part{
+    padding: 110px 90px;
+    position: relative;
+    z-index: 2;
+}
+.absu-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;   
+}
+.text-part h1{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 65px;
+    letter-spacing: 0.005em;
+}
+.text-part p{
+    font-family: 'Poppins';
+    flex-basis: 50%;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: justify;
+color: #4E4E4E;
+padding-top: 30px;
+padding-bottom: 50px;
+text-decoration: none;
+text-underline-offset: none;
+}
+
+.imag-part{
+    padding-right: 50px;
+    flex-basis: 50%;
+    text-align: end;
+}
+/* 
+<<<<<<<<<<<<<<< 3rd sec >>>>>>>>>>>>>>>>>>>> */
+
+.las-sec{
+    width: 100%;
+    padding: 150px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(assets/Rectangle\ 10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-part{
+    padding: 110px 90px;
+    position: relative;
+    z-index: 2;
+    flex-basis: 50%;
+}
+.absu-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;   
+}
+.text-part h1{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 65px;
+    letter-spacing: 0.005em;
+}
+.text-part p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: justify;
+color: #4E4E4E;
+padding-top: 30px;
+padding-bottom: 50px;
+text-decoration: none;
+text-underline-offset: none;
+}
+
+.imag-part{
+    padding-right: 50px;
+    flex-basis: 50%;
+}
+
